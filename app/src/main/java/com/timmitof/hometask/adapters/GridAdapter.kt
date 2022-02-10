@@ -1,5 +1,6 @@
 package com.timmitof.hometask.adapters
 
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,7 @@ import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.timmitof.hometask.R
+import com.timmitof.hometask.fragments.DetailFragment
 import com.timmitof.hometask.models.ModelClass
 
 class GridAdapter(private val array: ArrayList<ModelClass>, private val context: FragmentActivity):
@@ -37,6 +39,15 @@ class GridAdapter(private val array: ArrayList<ModelClass>, private val context:
         Glide.with(holder.itemView).load(item.image).into(holder.image)
         holder.name.text = item.name
         holder.description.text = item.description
+
+        holder.itemView.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putSerializable("KEY", item)
+
+            context.supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container_home, DetailFragment::class.java, bundle)
+                .addToBackStack(null).commit()
+        }
     }
 
     override fun getItemCount(): Int {

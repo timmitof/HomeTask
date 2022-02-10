@@ -21,6 +21,10 @@ class LoginFragment : Fragment() {
         _binding = FragmentLoginBinding.inflate(inflater, container, false)
         val sharedPref = context?.let { SharedPreference(it) }
 
+        if(sharedPref?.login != "" && sharedPref?.password != ""){
+            startActivity(Intent(requireActivity(), HomeActivity::class.java))
+        }
+
         binding.saveBtn.setOnClickListener {
             sharedPref?.login = binding.loginEdittext.text.toString()
             sharedPref?.password = binding.passwordEdittext.text.toString()

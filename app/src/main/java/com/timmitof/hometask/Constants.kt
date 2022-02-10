@@ -8,28 +8,82 @@ abstract class Constants {
             ModelClass(
                 R.drawable.image,
                 "Name",
-                "Description"
+                "Description",
+            "DetailDescription"
             ),
             ModelClass(
                 R.drawable.image,
                 "Name",
-                "Description"
+                "Description",
+            "DetailDescription"
             ),
             ModelClass(
                 R.drawable.image,
                 "Name",
-                "Description"
+                "Description",
+            "DetailDescription"
             ),
             ModelClass(
                 R.drawable.image,
                 "Name",
-                "Description"
+                "Description",
+            "DetailDescription"
             ),
             ModelClass(
                 R.drawable.image,
                 "Name",
-                "Description"
-            )
+                "Description",
+            "DetailDescription"
+            ),
+            ModelClass(
+                R.drawable.image,
+                "Name",
+                "Description",
+            "DetailDescription"
+            ),
+            ModelClass(
+                R.drawable.image,
+                "Name",
+                "Description",
+            "DetailDescription"
+            ),
+            ModelClass(
+                R.drawable.image,
+                "Name",
+                "Description",
+            "DetailDescription"
+            ),
+            ModelClass(
+                R.drawable.image,
+                "Name",
+                "Description",
+            "DetailDescription"
+            ),
+            ModelClass(
+                R.drawable.image,
+                "Name",
+                "Description",
+            "DetailDescription"
+            ),
+            ModelClass(
+                R.drawable.image,
+                "Name",
+                "Description",
+            "DetailDescription"
+            ),
+            ModelClass(
+                R.drawable.image,
+                "Name",
+                "Description",
+            "DetailDescription"
+            ),
+            ModelClass(
+                R.drawable.image,
+                "Name",
+                "Description",
+            "DetailDescription"
+            ),
+
         )
     }
 }
