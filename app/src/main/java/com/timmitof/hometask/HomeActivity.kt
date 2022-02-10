@@ -1,5 +1,6 @@
 package com.timmitof.hometask
 
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
@@ -9,6 +10,7 @@ import com.timmitof.hometask.fragments.GridFragment
 import com.timmitof.hometask.fragments.GridFragmentDirections
 import com.timmitof.hometask.fragments.LinearFragment
 import com.timmitof.hometask.fragments.LinearFragmentDirections
+import com.timmitof.hometask.services.SharedPreference
 
 class HomeActivity : AppCompatActivity() {
     lateinit var bottomNav: BottomNavigationView
@@ -27,6 +29,7 @@ class HomeActivity : AppCompatActivity() {
 
                 R.id.gridFragment_bn -> {
                     supportFragmentManager.beginTransaction().replace(R.id.fragment_container_home, GridFragment()).commit()
+
                 }
             }
             true

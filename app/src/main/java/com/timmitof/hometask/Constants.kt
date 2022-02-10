@@ -6,79 +6,49 @@ abstract class Constants {
     companion object{
         val array = arrayListOf(
             ModelClass(
-                R.drawable.image,
+                "https://thumbs.dreamstime.com/b/d-image-abstract-tunnel-diagonal-black-white-stripes-optical-illusion-168695979.jpg",
                 "Name",
                 "Description",
             "DetailDescription"
             ),
             ModelClass(
-                R.drawable.image,
+                "https://thumbs.dreamstime.com/b/d-image-abstract-tunnel-diagonal-black-white-stripes-optical-illusion-168695979.jpg",
                 "Name",
                 "Description",
             "DetailDescription"
             ),
             ModelClass(
-                R.drawable.image,
+                "https://thumbs.dreamstime.com/b/d-image-abstract-tunnel-diagonal-black-white-stripes-optical-illusion-168695979.jpg",
                 "Name",
                 "Description",
             "DetailDescription"
             ),
             ModelClass(
-                R.drawable.image,
+                "https://thumbs.dreamstime.com/b/d-image-abstract-tunnel-diagonal-black-white-stripes-optical-illusion-168695979.jpg",
                 "Name",
                 "Description",
             "DetailDescription"
             ),
             ModelClass(
-                R.drawable.image,
+                "https://thumbs.dreamstime.com/b/d-image-abstract-tunnel-diagonal-black-white-stripes-optical-illusion-168695979.jpg",
                 "Name",
                 "Description",
             "DetailDescription"
             ),
             ModelClass(
-                R.drawable.image,
+                "https://thumbs.dreamstime.com/b/d-image-abstract-tunnel-diagonal-black-white-stripes-optical-illusion-168695979.jpg",
                 "Name",
                 "Description",
             "DetailDescription"
             ),
             ModelClass(
-                R.drawable.image,
+                "https://thumbs.dreamstime.com/b/d-image-abstract-tunnel-diagonal-black-white-stripes-optical-illusion-168695979.jpg",
                 "Name",
                 "Description",
             "DetailDescription"
             ),
             ModelClass(
-                R.drawable.image,
-                "Name",
-                "Description",
-            "DetailDescription"
-            ),
-            ModelClass(
-                R.drawable.image,
-                "Name",
-                "Description",
-            "DetailDescription"
-            ),
-            ModelClass(
-                R.drawable.image,
-                "Name",
-                "Description",
-            "DetailDescription"
-            ),
-            ModelClass(
-                R.drawable.image,
-                "Name",
-                "Description",
-            "DetailDescription"
-            ),
-            ModelClass(
-                R.drawable.image,
-                "Name",
-                "Description",
-            "DetailDescription"
-            ),
-            ModelClass(
-                R.drawable.image,
+                "https://thumbs.dreamstime.com/b/d-image-abstract-tunnel-diagonal-black-white-stripes-optical-illusion-168695979.jpg",
                 "Name",
                 "Description",
             "DetailDescription"
